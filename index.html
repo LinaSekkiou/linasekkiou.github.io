@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon"href="./images/favicon.png" />
+  </head>
+  <body class="bg-white antialiased">
+    <div class="navbar-bg text-white p-4 w-screen drop-shadow-md fixed z-50">
+        <div class="list-none flex justify-center font-bold">
+            <a href="#home"><li class="navbar-item md:px-14 px-6">Home</li></a>
+            <a href="#makeup"><li class="navbar-item md:px-14 px-6">Makeup</li></a>
+            <!-- <a href="#hair"><li class="navbar-item md:px-14 px-6">Hair</li></a> -->
+            <a href="#nails"><li class="navbar-item md:px-14 px-6">Nails</li></a>
+        </div>
+    </div>
+    
+    <section id="home">
+      <div class="flex flex-col md:flex-row justify-center pt-24 gap-10 mx-16">
+          <div class="font-bold text-center md:text-left md:mt-16">
+    
+              <h1 class="text-7xl text-red-600 opacity-80 leading-none animate-bounce">Hi</h1>
+              <h1 class="text-6xl pl-1 leading-none">I'm Lina Sekkiou</h1>
+    
+    
+              <div class="lg:mt-14 md:mt-6 mt-10">
+                  Hair and makeup student at University of the Arts London.
+              </div>
+    
+              <div class="lg:mt-14 md:mt-6 mt-10 gap-10 flex justify-center text-white">
+                  <a href="https://www.instagram.com/linasekkiou.makeup" target="_blank">
+                      <span class="fa-stack fa-2x social-icon">
+                          <i class="fa fa-circle instagram text-transparent bg-clip-text fa-stack-2x -rotate-45"></i>
+                          <i class="fa-brands fa-instagram text-5xl fa-stack-1x"></i>
+                      </span>
+                  </a>
+                
+                  <a href="https://www.pinterest.com/linasekkiou" target="_blank">
+                      <span class="fa-stack fa-2x social-icon">
+                          <i class="fa fa-circle bg-[#E60023] text-transparent bg-clip-text fa-stack-2x -rotate-45"></i>
+                          <i class="fa-brands fa-pinterest-p text-4xl fa-stack-1x"></i>
+                      </span>
+                  </a>
+    
+                  <a href="https://www.tiktok.com/@lina.sekkiou" target="_blank">
+                      <span class="fa-stack fa-2x social-icon">
+                          <i class="fa fa-circle bg-black text-transparent bg-clip-text fa-stack-2x -rotate-45"></i>
+                          <i class="fa-brands fa-tiktok text-4xl fa-stack-1x"></i>
+                      </span>
+                  </a>
+              </div>
+          </div>
+    
+          <div class="w-auto md:w-96">
+              <img class="rounded-[9rem]" src="images\photo-1.jpg" alt=" ">
+          </div>
+      </div>
+    </section>
+    
+    <section id="nails" class="mx-6">
+        <div class="text-center text-5xl font-bold pt-20 pb-6">
+            <div class="flex justify-center">
+            <h1>Nails</h1>
+            <img class="w-24 sway" src="images/nails-icon-1.png" alt="">
+            </div>
+        </div>
+      
+        <div class="flex justify-center gap-10 pt-4 flex-wrap">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-1.jpg" alt=" ">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-2.jpg" alt=" ">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-3.jpg" alt=" ">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-4.jpg" alt=" ">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-5.jpg" alt=" ">
+                <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/nails/nails-6.jpg" alt=" ">
+        </div>
+      </section>
+    
+    <section id="makeup" class="mx-6">
+      <div class="text-center text-5xl font-bold pt-20 pb-6">
+          <div class="flex justify-center">
+          <h1>Makeup</h1>
+          <img class="w-24 sway" src="images/makeup-icon-1.png" alt="">
+          </div>
+      </div>
+    
+      <div class="flex justify-center gap-10 pt-4 flex-wrap">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-1.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-2.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-3.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-4.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-5.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-6.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-7.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-8.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-9.jpg" alt=" ">
+              <img class="w-96 object-contain border-8 border-white drop-shadow-img" src="images/makeup/makeup-10.jpg" alt=" ">
+      </div>
+    </section>
+  <script src="https://kit.fontawesome.com/af989a586a.js" crossorigin="anonymous"></script>
+  </body>
+</html>
